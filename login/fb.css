@@ -1,0 +1,75 @@
+nav{
+  background:rgba(2, 2, 153, 0.705);
+  padding:10px 40px;
+}
+nav *{
+  color:white;
+}
+#text{
+  padding:12px;
+  background:rgb(230, 238, 248);
+  border:1px solid rgb(145, 184, 255);
+
+  width:98% !important;
+  margin:0 auto;
+  margin-top:9px;
+  text-align:center;
+  font-size:smaller;
+}
+#text .box{
+  width:20px;
+  height:20px;
+  background:rgba(0, 87, 248, 0.144);
+  border:1px solid rgb(145, 184, 255);
+ z-index:-1;
+  transform:rotate(45deg);
+  position:absolute;
+  margin-left:84%;
+  margin-top:-18px;
+  }
+  #ctn{
+    width:98%;
+ 
+    margin:0 auto;
+  }
+  #ctn div{
+    width:100%;
+   
+    align-items:center;
+    border:1px solid rgb(240, 240, 245);
+    padding:10px 25px;
+    cursor:pointer;
+    border-radius:0px !important;
+  }
+  #ctn button{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:rgba(26, 26, 204, 0.849);
+    color:white;
+    font-size:x-large !important;
+  }
+  #ctn span{
+    margin-left:10px;
+  }
+  #ctn p{
+    padding:0px 5px;
+    font-size:small;
+    padding:0px 20px;
+  }
+  *{
+    color:rgb(34, 34, 34);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #go{
+    padding:7px 10px;
+    width: 70%;max-width: 200px;
+    border-radius:4px;
+    color:white;
+    text-shadow:1px 1px grey;
+    background:rgb(0, 167, 22);
+    font-weight:bolder;
+  }

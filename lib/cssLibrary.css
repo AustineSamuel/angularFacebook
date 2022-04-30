@@ -1,0 +1,342 @@
+body{
+  padding:0;
+  margin:0;
+}
+*{
+  box-sizing:border-box;
+}
+.animateV{
+  overflow:hidden;
+}
+#body{
+  width:100%;
+  height:100%;
+  position:fixed;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+button,textarea,input{
+  outline:none;
+  border:none;
+  background:none;
+  padding:3px 6px;
+}
+a{
+text-decoration:none;
+color:initial;
+}
+*[flexwrap],*[flexWrap]{
+flex-flow:row wrap;
+}
+
+.flexRound{
+  display:flex;
+  align-items:space-around;
+  justify-content:flex-around;
+}
+.flexBetween{
+  display:flex ;
+align-items:space-between ;
+justify-content:space-between ;
+}
+button{
+cursor:pointer !important;
+}
+.flexCenter{
+  display:flex ;
+  align-items:center ;
+  justify-content:center ;
+ 
+}
+hr{
+border:none;
+border-top:1px solid dimgrey;
+}
+.flexEnd{
+  display:flex ;
+  align-items:center ;
+  justify-content:flex-end ;
+ 
+}
+
+.flexStart{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  padding:16px;
+}
+.flexV{
+  display:flex;
+  justify-content:flex-start;
+  flex-flow:row nowrap;
+  align-items: flex-end;
+  padding:16px;
+}
+.flexBottom{
+display:flex;
+align-items:flex-end;
+flex-flow:row nowrap;
+}
+.flexEnd{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  flex-flow:row nowrap;
+  }
+  .flexStart{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-flow:row nowrap;
+    }
+  
+.fixed{
+  position:fixed;
+width:100%;
+overflow-x:hidden;
+overflow-y:auto;
+}
+.scrollX{
+  overflow-x:auto;
+  overflow-y:hidden;
+  width:100%;
+  height:100%;
+}
+.scrollY{
+  overflow-x:hidden;
+  overflow-y:auto;
+  width:100%;
+  height:100%;
+}
+.scroll{
+  overflow:auto;
+  width:100%;
+  height:100%;
+}
+.fullCtn{
+  width:100%;
+  height:100%;
+}
+button,div,img,aside{
+  border-radius:3px;
+}
+
+.fixedTop{
+  width:100%;
+  height:100%;
+  position:fixed;
+top:0;
+}
+.fixedBottom{
+  width:100%;
+  height:100%;
+  position:fixed;
+bottom:0;
+}
+.fixedRight{
+  width:100%;
+  height:100%;
+  position:fixed;
+right:0;
+}
+.fixedLeft{
+  width:100%;
+  height:100%;
+  position:fixed;
+left:0;
+}
+
+*[class*="bold"]{
+  font-weight:bold;
+}
+
+
+*[class*="bolder"]{
+  font-weight:bolder;
+}
+
+*[class*="boldNormal"]{
+  font-weight:400 !important;
+}
+
+*[class*="nav"]{
+box-shadow:1px 1px 25px 0px rgb(194, 194, 194);
+min-height:54px;
+  }
+  
+*[class*="nav"]{
+  font-weight: bolder;
+}
+
+*[class*="mgn8"]{
+ margin:8px;
+}
+
+
+*[class*="mgn16"]{
+ margin:16px;
+}
+
+
+*[class*="mgn32"]{
+  margin:32px;
+ }
+
+ 
+*[class*="mgnLeft8"] {
+  margin-left:8px;
+ }
+ 
+ 
+ *[class*="mgnLeft16"]{
+  margin-left:16px;
+ }
+ 
+ 
+ *[class*="mgnLeft32"]{
+   margin-left:32px;
+  }
+
+  
+*[class*="mgnTop8"]{
+  margin-top:8px;
+ }
+ 
+ 
+ *[class*="mgnTop16"]{
+  margin-top:16px;
+ }
+ 
+ 
+ *[class*="mgnTop32"]{
+   margin-top:32px;
+  }
+
+
+  
+*[class*="mgnRight8"]{
+  margin-right:8px;
+ }
+ 
+ 
+ *[class*="mgnRight16"]{
+  margin-right:16px;
+ }
+ 
+
+ *[class*="mgnRight32"]{
+   margin-right:32px;
+  }
+
+
+  
+*[class*="mgnBttm8"]{
+  margin-bottom:8px;
+ }
+ 
+ 
+ *[class*="mgnBttm16"]{
+  margin-bottom:16px;
+ }
+ 
+ 
+ *[class*="mgnBttm32"]{
+   margin-bottom:32px;
+  }
+
+  *[class*="radius5"]{
+    border-radius:5px;
+   }
+
+  *[class*="radius10"]{
+    border-radius:10px;
+   }
+
+   
+  *[class*="radius15"]{
+    border-radius:15px;
+   }
+
+   
+  *[class*="radius20"]{
+    border-radius:20px;
+   }
+
+   
+  *[class*="radius25"]{
+    border-radius:25px;
+   }
+
+   
+  *[class*="radius30"]{
+    border-radius:30px;
+   }
+
+   
+  *[class*="radius35"]{
+    border-radius:35px;
+   }
+ 
+  *[class*="radius40"]{
+    border-radius:40px;
+   }
+
+   
+   
+  *[class*="borderColorRed"]{
+    border-color:red;
+   }
+
+   
+   
+  *[class*="borderColorBlue"]{
+    border-color:blue;
+   }
+
+
+  *[class*="borderColorYelow"]{
+    border-color:yellow;
+   }
+
+
+   
+  *[class*="footer"]{
+    border-radius:none;
+box-shadow:one !important;
+   }
+ 
+
+   
+  *[class*="menuContentWhite"]{
+  box-shadow:2px 1px 10px 0px rgb(201, 201, 201);
+   }
+ 
+   
+  *[class*="menuContentWhite"] li{
+ list-style-type:none;
+ border-top:1px solid rgb(235, 234, 238);
+ padding:10px 5px;
+  }
+
+   
+  *[class*="menuContentWhite"] .fa{
+   
+  width:20px;
+  height:20px;
+  border-radius: 10px;
+  border:1px solid rgb(237, 234, 234);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  }
+  
+  *[class*="menuContentWhite"] .fa:hover{
+margin-left:3px;
+  }
+
+  
+*[class*="menuContentWhite"] .fa:Active{
+    font-size:small;
+    box-shadow:1px 1px 10px 0px rgb(223, 223, 223);
+}
+   

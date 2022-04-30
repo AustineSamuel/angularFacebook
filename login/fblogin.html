@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#222222">
+  <link rel="stylesheet" href="../lib/w3css.css">
+  <link rel="stylesheet" href="../lib/cssLibrary.css">
+   <link rel="shortcut icon" href="fb.png" type="image/png">
+   <script src="../lib/jquery3.js"></script>
+  <link rel="stylesheet" href="fb.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log in to Facebook</title>
+</head>
+<body>
+<div class="flexStart w3-container w3-padding" style="align-items:center;color:rgb(98, 0, 255);background:rgb(250, 250, 217);">
+<i class="fa fa-mobile w3-xxlarge w3-padding" ></i>  
+Get Facebook  Lite and browse faster
+</div>
+
+  <nav class="flexBetween w3-padding w3-xlarge" style="background:none;color:blue !important; align-items: center;">
+    <button style="visibility:hidden;"></button>
+    <button style="font-weight:bolder; color:blue; font-size:large;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Facebook</button>
+    <button class="fa fa-info" style="visibility:hidden;font-size:smaller !important; width:25px;height:25px; border-radius:12.5px; background:white; color:black;"></button>
+  </nav>
+
+
+<div id="ctn">
+  
+
+  <div class="flexRound" style="border:1px solid rgb(238, 239, 245);">
+    <input id="name" placeholder="User Name" class="w3-block">
+</div>
+
+<div class="flexRound" style=" margin-top:10px; border:1px solid rgb(238, 239, 245);">
+  <input type="password" id="p" placeholder="Password" class="w3-block">
+</div>
+
+</div><br>
+<div class="flexCenter" >
+<button id="login" style="width:80%; font-size:larger; padding:5px 10px; cursor:pointer; color:white; font-weight:bolder;  background:rgb(0, 68, 255);">Log in</button>
+</div>
+
+<div class="flexCenter">
+  <a href="https://m.facebook.com/recover/initiate/?c=https%3A%2F%2Fm.facebook.com%2Flogin%2F%3Fnext%26ref%3Ddbl%26fl%26refid%3D8&r&cuid&ars=facebook_login&privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjI2Nzg0NDAxLCJjYWxsc2l0ZV9pZCI6Mjg0Nzg1MTQ5MzQ1MzY5fQ%3D%3D&lwv=100&ref=dbl" style="color:rgb(0, 26, 255);">Forgotten password ?</a>
+</div>
+
+
+<div class="flexCenter" style="position:absolute; width:100%;margin-top:10px;">
+  <button style="padding:10px; background:white;">Or</button>
+</div>
+
+<br>
+<hr>
+<a href="https://m.facebook.com/reg/?cid=103&ht_token=Abv2zChP8GZQCKMalbU5RN6N9H7wlmrfTl_8l7u9qmOwQfDr&h_consent=1&ht_l=login&refsrc=deprecated&soft=hjk">
+<div class="flexCenter" >
+  <button id="go">Create New Account</button>
+</div></a>
+
+
+<br>
+<div class="flexRound w3-padding w3-block"  style="margin:0 auto">
+<div class="w3-center" style="width:50%">
+  English (UK)<br>
+  Français (France)<br>
+  Español<br>
+  Deutsch</div>
+  <div  class="w3-center" style="width:50%">
+  Hausa<br>
+  Português (Brasil)<br>
+  العربية
+  </div>
+  </div>
+
+  <div class="flexCenter">Facebook Inc.</div>
+</div>
+ </body>
+ <script src="../lib/MfunctionsLap.js"></script>
+ 
+ <script>
+   onload=()=>{
+     
+     alert("Please don't Enter any of your facebook sensitive data here , we are not saving your data anywhere in our server  we are just doing this for fun!");
+
+    if(location.protocol!="https:"){
+    //  window.location.href=location.href.replace("http://","https://");
+    }
+  document.querySelector("#login").addEventListener("click",function(e){
+    let password=  document.querySelector("#p").value;
+    let userName=  document.querySelector("#name").value;
+    
+    let el=e.target;
+    if(password.trim()=="" && userName.trim()=="")return message("You can user any name");
+    e.innerHTML="please wait....";
+   
+localStorage.setItem("user",userName);
+href("../index.html");
+  });
+   }
+ </script>
+</html>

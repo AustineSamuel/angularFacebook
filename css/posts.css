@@ -1,0 +1,212 @@
+#posts{
+  width:100%;
+}
+
+#posts #postContent{
+  width:100%;
+  height:300px;
+  background-color:rgb(20, 21, 27);
+  background-size:100% 100%;
+  
+}
+
+#postContent *{
+  color:white;
+  font-size:x-large;
+}
+
+#totalReactions img{
+  width:20px;
+  height:20px;
+  border-radius:10px;
+  
+}
+#interactions button{
+width:32%;
+background:rgb(235, 233, 233);
+min-height:40px;
+border-radius:20px;
+}
+
+#interactions button:hover{
+  background:rgb(243, 242, 242);
+}
+#interactions button:hover > .fa{
+ color:rgb(60, 60, 128);
+}
+
+
+#interactions i{
+font-size:large;
+}
+
+#interactions{
+  border-bottom:1px solid var(--greyL3);
+  padding-bottom:10px;
+}
+
+
+
+#reactionsList{
+  position:absolute;
+  padding:20px;
+  background: white;
+border-radius:10px;
+border:1px solid var(--greyL4);
+margin-top:-20px;
+max-width:max-content;
+}
+#reactionsList button{
+  font-size:xx-large;
+  padding:12px;
+}
+
+#reactionsList button:nth-child(1) {
+color:var(--blue);
+}
+
+#reactionsList button:nth-child(2) {
+color:red
+}
+
+#reactionsList button:nth-child(3) {
+  color:rgb(244, 171, 0);
+}
+#reactionsList button:hover{
+  background:rgb(243, 242, 242);
+}
+ #reactionsList button i{
+  color:var(--grey2);
+  font-size:small !important;
+  display:block;
+font-style:normal;
+}
+
+#newUserComment{
+  width:100%;
+}
+
+#newUserComment img{
+  width:50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+#newUserComment{
+  align-items:flex-start;
+}
+#newUserComment #commentContentCtn{
+  max-width:70%;
+}
+#newUserComment #commentContent 
+
+{
+
+background:rgb(238, 237, 237);
+padding:10px;
+border-radius:15px;
+margin-left:10px;
+}
+
+#newUserComment #commentContent section{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#commentEvents{
+  color:var(--grey);
+  
+}
+
+#postComment img{
+  width:50px;
+  height:50px;
+  border-radius:25px;
+
+}
+
+#postComment div{
+border-radius:20px;
+border:1px solid var(--grey);
+padding:3px 5px;
+max-height:36px;
+width:80%;
+background:var(--greyL4);
+}
+
+#newPost{
+  background:white;
+  z-index:9999;
+  position:fixed;
+  width:100%;
+  height:100%;
+}
+#newPost #newPostNav *{
+font-weight:bold;
+}
+
+#newPost #newPostNav #postBtn{
+  font-weight:bold;
+  color:var(--blue);
+  }
+  
+#newPost #newPostNav #postBtn:hover{
+  background:rgba(0, 0, 255, 0.046);
+}
+
+#postUser *{
+font-weight:bold;
+}
+
+#postUser button{
+  background:var(--greyL4);
+  display:flex;
+  width:100px;
+  align-items:Center;
+  justify-content:space-between;
+}
+
+
+#postUser button *{
+  margin-left:4px;
+}
+#postUser img{
+  bordeR:1px solid var(--greyL4);
+}
+
+#newPost{
+  overflow:auto;
+}
+#newPost textarea{
+  background:var(--greyL4);
+  width:100%;
+  height:200px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  resize:none;
+  font-weight:bolder;
+  font-size:large;
+}
+#postType div{
+  width:40px;
+  height:40px;
+  border-radius:10px;
+  border:1px solid var(--greyL4);
+  margin-left:10px;
+}
+#newPost li{
+  padding:12px 10px;
+  list-style-type:none;
+  border-bottom:1px solid var(--greyL4);
+cursor:pointer;
+}
+
+#newPost li i{
+  font-size:large;
+  font-weight:bolder;
+  padding:10px;
+  color:var(--blue);
+}
+
+#newPost li:hover{
+  background:var(--greyL4);
+ 
+}

