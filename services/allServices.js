@@ -115,7 +115,7 @@ posts:[
       },
       {
         name:'John Joel',
-        content:"You really need to be expert on problem solving algorithm && data structure then you are goo to go!! ",
+        content:"You really need to be expert on problem solving algorithm && data structure then you are good to go!! ",
       img:images[2],
       time:"2hrs"
       }
@@ -175,7 +175,7 @@ posts:[
   {
     owner:"Ausine Samuel",
     mode:"feeling cool",
-    content:"please if you like this project comment 'good to go' for the complete sr code",
+    content:"please if you like this project comment 'good to go' for the complete src code",
     ReactedCloseFriend:"Praise Codes",
     likes:420,
     comments:23,
