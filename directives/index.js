@@ -18,7 +18,7 @@ $scope.navHeight=$("#mynav").height();
 </button>
 </div>
 <br>
-<div class="flexBetween ">
+<div class="flexBetween " id="navSearch">
   <div id="fbName" class="w3-padding bold "><span style="font-size:22px !important;">facebook</span></div>
 
   <div id="buttons" class="flexStart">
@@ -44,24 +44,24 @@ $scope.navHeight=$("#mynav").height();
 
 
 
-<div class="flexBetween">
+<div class="flexBetween"onclick="alert('feature not added , contact me for the complete src code?')">
 <button class="{{nav.chats.icon}}"><span ng-if="nav.chats.num>0">{{nav.chats.num}}</span></button>
 </div>
 
 
-<div class="flexBetween">
+<div class="flexBetween" onclick="alert('feature not added , contact me for the complete src code?')">
 <button class="{{nav.tv.icon}}"><span ng-if="nav.tv.num>0">{{nav.tv.num}}</span></button>
 </div>
 
 
 
-<div class="flexBetween">
+<div class="flexBetween" onclick="alert('feature not added , contact me for the complete src code?')">
 <button class="{{nav.notifications.icon}}"><span ng-if="nav.notifications.num>0">{{nav.notifications.num}}</span></button>
 </div>
 
 
 
-<div class="flexBetween">
+<div class="flexBetween" onclick="alert('feature not added , contact me for the complete src code?')">
 <button class="{{nav.market.icon}}"><span ng-if="nav.market.num>0">{{nav.market.num}}</span></button>
 </div>
 

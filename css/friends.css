@@ -1,0 +1,41 @@
+#navSearch{
+  display:none !important;
+}
+#suggestion #tag{
+  padding:10px;
+  border-radius: 20px !important;
+background:rgb(214, 213, 213);
+  border-radius:10px;
+  font-weight:bolder;
+} #userClickable button{
+  width:50%;
+  font-weight:bolder;
+  border-radius:7px;
+  padding:5px 16px !important;
+}
+ #userClickable #confirm{
+  width:45%;
+background:var(--blue);
+color:white;
+ min-width:max-content;
+}
+#userClickable #decline{
+  background:rgb(221, 221, 221);
+  margin-left:3px;
+}
+
+#seeAll{
+  padding:2px 0px;
+  font-weight:bolder;
+  background:rgb(221, 221, 221);
+}
+
+
+#seeAll:hover{
+  background:rgb(240, 240, 240);
+
+  }
+
+  .friendsList button{
+    font-size:small;
+  }

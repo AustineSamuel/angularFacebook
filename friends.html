@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FB clone</title>
+  <title>Friends</title>
   <link rel="stylesheet" href="lib/cssLibrary.css">
   <link rel="stylesheet" href="lib/w3css.css">
   <link rel="stylesheet" href="lib/fontawesome-free-6.0.0-beta3-web/css/all.css">
@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/storyCtn.css">
   <link rel="stylesheet" href="css/posts.css">
   <!--end components styles ends here-->
-
+<link rel="stylesheet" href="css/friends.css">
   <script src="lib/angular-1.8.2/angular.min.js"></script>
 
   <!--pages-->
@@ -28,10 +28,25 @@
 </head>
 <body ng-app="app" ng-controller="appCtr">
 
+<mynav></mynav>
+<br><br><br><br>
+<br><br>
+
+
+
+<friendsrequests></friendsrequests>
+
+<friendslist></friendslist>
+
+
+
+
   </body>
   <script src="compile/friends.js"></script>
-  
+  <script src="services/allServices.js"></script>
   <script src="directives/friends.js"></script>
-  
+
+  <script src="directives/index.js"></script>
+
   </html>
 
