@@ -170,7 +170,7 @@ getQr("#storyInput").addEventListener("change",function(e){
 <div class="w3-padding w3-block" id="storyCtn">
 
 <div id="add" ng-click="postSomething()" class="flexBetween">
-  <img src="images/user.png">
+  <img src="images/fbUser.png">
 <div class="flexCenter w3-container "><span>What's goin on?</span></div>
 
 <button class="fa fa-image"></button>
@@ -188,7 +188,7 @@ getQr("#storyInput").addEventListener("change",function(e){
 
 <div id="storyList" class="flexStart scrollX ">
 
-  <div class="ctn" id="addStory">
+  <div class="ctn" id="addStory" style="background-image:url('{{user.img}}')">
 <div id="imgArea"></div>
 <div id="textArea" class="w3-center">
 
@@ -202,7 +202,7 @@ getQr("#storyInput").addEventListener("change",function(e){
   </div>
 
   
-  <div ng-repeat="story in stories track by $index" ng-click="viewStory($event)" index="{{$index}}" class="ctn" id="ctn{{story.sum}}"style="background-image:url:('{{story.firstImage}}')" >
+  <div ng-repeat="story in stories track by $index" ng-click="viewStory($event)" index="{{$index}}" class="ctn" id="ctn{{story.sum}}"style="background-image:url('{{story.firstImage}}') !important;" >
     <div id="imgArea">
 
       <div class="flexEnd">
@@ -461,6 +461,10 @@ $scope.$apply();
 
 </div>
 
+<br>
+<div class="flexCenter " style="background:var(--grey);border-radius:0px !important;padding:3px !important;">
+<button class="w3-text-white bold w3-btn" style="background:var(--blueL1);border-radius:40px;" ng-click="postSomething()">Post Something </button>
+</div>
 
 
 

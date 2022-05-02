@@ -52,17 +52,17 @@ firstImage:images[15]
   {
   text:"Smart developer",
  sum:12,
-  firstImage:images[3]
+  firstImage:images[1]
   }  ,
   {
   text:"NodeJsl",
  sum:4,
-  firstImage:images[16]
+  firstImage:images[2]
   }  ,
   {
   text:"Only me",
  sum:6,
-  firstImage:images[16]
+  firstImage:images[5]
   }  
 ],//end stories
 
@@ -110,7 +110,7 @@ posts:[
       {
         name:'Pro Coder',
         content:"i don't like working for turing i prefer freelancing",
-      img:images[2],
+      img:images[12],
       time:"2hrs"
       },
       {
@@ -163,15 +163,44 @@ posts:[
   commentsList:[
   {
     name:'NodeJS',
-    content:"both are very good but i prefer PHP",
+    content:"good luck buddy!",
   img:images[2],
   time:"1hrs"
   }
   ]
     
   }
+,
 
-
+  {
+    owner:"Ausine Samuel",
+    mode:"feeling cool",
+    content:"please if you like this project comment 'good to go' for the complete sr code",
+    ReactedCloseFriend:"Praise Codes",
+    likes:420,
+    comments:23,
+    iLiked:false,
+    myReaction:"fa fa-thumbs-o-up",
+    img:"images/myImage.jpg",
+    share:23,
+    style:"background-color:rgb(0, 0, 0);color:white;",
+    commentsList:[
+    {
+      name:'NodeJS',
+      content:"Me i love it ooh!",
+    img:images[2],
+    time:"just now"
+    },
+    {
+      name:'Austine Samuel',
+      content:"Message me via whatsapp +2348063202017",
+    img:"images/myImage.jpg",
+    time:"just now"
+    }
+    ]
+      
+    }
+  
   
 
 
@@ -180,7 +209,8 @@ posts:[
 //user
 user:{
 name:userName!=null ? userName:"Fb User",
-image:iconLink
+image:iconLink,
+img:iconLink
 },
 friends:{
   list:[
