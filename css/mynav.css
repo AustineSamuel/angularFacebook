@@ -1,3 +1,8 @@
+body{
+  /*mobile only*/
+  max-width:600px
+}
+
 #mynav{
   width:100%;
   position:fixed;
