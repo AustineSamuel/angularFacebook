@@ -202,7 +202,7 @@ getQr("#storyInput").addEventListener("change",function(e){
   </div>
 
   
-  <div ng-repeat="story in stories track by $index" ng-click="viewStory($event)" index="{{$index}}" class="ctn" id="ctn{{story.sum}}"style="background-image:url:{{story.firstImage}}" >
+  <div ng-repeat="story in stories track by $index" ng-click="viewStory($event)" index="{{$index}}" class="ctn" id="ctn{{story.sum}}"style="background-image:url:('{{story.firstImage}}')" >
     <div id="imgArea">
 
       <div class="flexEnd">
@@ -421,7 +421,7 @@ $scope.$apply();
 </div>
 
 <div class="flexStart" id="totalReactions">
-<img><img><span style="padding-left:2px;" ng-if="post.likes>0"><b>{{post.ReactedCloseFriend}}</b> and {{post.likes-1}} others </span>
+<img src="images/like.png"><img src="images/love.png"><span style="padding-left:2px;" ng-if="post.likes>0"><b>{{post.ReactedCloseFriend}}</b> and {{post.likes-1}} others </span>
 </div>
 
 <div class="flexBetween" id="interactions">
@@ -438,7 +438,7 @@ $scope.$apply();
 <div id="commentsList" class="w3-padding">
 
 <div id="newUserComment" class="flexStart" ng-repeat="comment in post.commentsList">
-  <img src='comment.img'>
+  <img src='{{comment.img}}'>
   <div id="commentContentCtn">
 <div id="commentContent">
     <b>{{comment.name}}</b><br>
